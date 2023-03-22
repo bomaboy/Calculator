@@ -40,3 +40,64 @@ main {
 .number p {
    font-size: 25px;
 }
+
+.last2col {
+   width: 300px;
+}
+
+.equalDiv {
+   width: 100px;
+   display: flex;
+   justify-content: center;
+}
+
+.equalDiv p {
+   background-color: black;
+   color: whitesmoke;
+   height: 100px;
+   align-items: center;
+   display: flex;
+   width: 40px;
+   justify-content: center;
+   border-radius: 10px;
+   font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+   .calculator {
+      width: 100vw;
+      height: 100%;
+      border: none;
+   }
+   .result {
+      border-top-right-radius: 0px;
+      border-top-left-radius: 0px;
+      height: 40vh;
+   }
+
+   .number {
+      height: 150px;
+   }
+
+   .last2col {
+      width: 75%;
+   }
+
+   .equalDiv {
+      width: 25%;
+   }
+
+   .div {
+      width: 100%;
+   }
+
+   .number p {
+      font-size: 50px;
+   }
+
+   .equalDiv p {
+      font-size: 50px;
+      width: 70px;
+      height: 200px;
+   }
+}
